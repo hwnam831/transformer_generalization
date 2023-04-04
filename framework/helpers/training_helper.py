@@ -1,7 +1,8 @@
 from ..visualize import plot
+from .. import visualize
 from ..utils import use_gpu, seed, U
 from ..data_structures import DotDict
-import framework
+
 import os
 import shutil
 import sys
@@ -97,7 +98,7 @@ class TrainingHelper:
     def start_tensorboard(self):
         if self.use_tensorboard:
             os.makedirs(self.dirs.tensorboard, exist_ok=True)
-            framework.visualize.tensorboard.start(log_dir=self.dirs.tensorboard)
+            visualize.tensorboard.start(log_dir=self.dirs.tensorboard)
 
     def use_cuda(self) -> bool:
         return torch.cuda.is_available() and self.args.gpu.lower() != "none"

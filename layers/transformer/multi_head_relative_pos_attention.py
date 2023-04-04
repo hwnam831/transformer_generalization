@@ -3,7 +3,7 @@ import torch.nn
 import torch.nn.functional as F
 from typing import Optional
 from .multi_head_attention import AttentionMask, MultiHeadAttentionBase
-import framework
+from ... import framework
 import math
 
 
