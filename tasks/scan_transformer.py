@@ -1,4 +1,4 @@
-import dataset
+from .. import dataset
 from .task import Task
 from .transformer_mixin import TransformerMixin
 

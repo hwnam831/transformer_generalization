@@ -1,5 +1,5 @@
-import framework
-from models.encoder_decoder import add_eos
+from .. import framework
+from ..models.encoder_decoder import add_eos
 from typing import Tuple, Dict, Any, Optional, Callable, List
 import torch
 import torch.nn.functional as F

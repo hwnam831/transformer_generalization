@@ -1,7 +1,7 @@
 import torch.nn
-from layers.transformer import Transformer, UniversalTransformer, RelativeTransformer, UniversalRelativeTransformer
-from models import TransformerEncDecModel
-from interfaces import TransformerEncDecInterface
+from ..layers.transformer import Transformer, UniversalTransformer, RelativeTransformer, UniversalRelativeTransformer
+from ..models import TransformerEncDecModel
+from ..interfaces import TransformerEncDecInterface
 
 
 class TransformerMixin:

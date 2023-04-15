@@ -1,8 +1,8 @@
 import torch
 import torch.nn
 import torch.nn.functional as F
-import framework
-from layers import Transformer, TiedEmbedding
+from .. import framework
+from ..layers import Transformer, TiedEmbedding
 from typing import Callable, Optional
 import math
 

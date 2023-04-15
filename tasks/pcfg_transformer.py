@@ -1,4 +1,4 @@
-import dataset
+from .. import dataset
 from typing import Dict, Any
 from .task import Task
 from .transformer_mixin import TransformerMixin

@@ -1,5 +1,5 @@
 import os
-from framework.utils import download
+from ...framework.utils import download
 from .text_dataset import TextDataset, TextDatasetCache
 
 

@@ -1,5 +1,5 @@
 import os
-from framework.utils import download
+from ...framework.utils import download
 import csv
 from .typed_text_dataset import TypedTextDataset, TypedTextDatasetCache
 from ..sequence import TypedTextSequenceTestState

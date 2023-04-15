@@ -2,8 +2,8 @@ import torch
 import torch.utils.data
 import os
 import numpy as np
-import framework
-from framework.data_structures import WordVocabulary
+from ... import framework
+from ...framework.data_structures import WordVocabulary
 from typing import List, Dict, Any, Tuple
 from ..sequence import TextSequenceTestState
 

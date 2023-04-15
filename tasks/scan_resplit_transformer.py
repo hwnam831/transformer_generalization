@@ -1,4 +1,4 @@
-import dataset
+from .. import dataset
 from .scan_transformer import ScanTransformer
 
 

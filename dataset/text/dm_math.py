@@ -1,7 +1,7 @@
 import os
 import tarfile
 from typing import List, Tuple, Callable, Dict, Any, Optional
-import framework
+from ... import framework
 import numpy as np
 import itertools
 from ..sequence import TypedTextSequenceTestState

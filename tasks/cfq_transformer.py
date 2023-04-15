@@ -1,9 +1,9 @@
-import dataset
+from .. import dataset
 from .task import Task
 from .transformer_mixin import TransformerMixin
 from typing import Tuple, Any
-import framework
-import dataset.sequence
+from .. import framework
+from .. import dataset
 import numpy as np
 import torch
 

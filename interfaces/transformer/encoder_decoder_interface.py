@@ -1,10 +1,10 @@
 import torch
 import torch.nn
 from typing import Dict, Tuple
-from models.encoder_decoder import add_eos
-from models.transformer_enc_dec import TransformerResult
+from ...models.encoder_decoder import add_eos
+from ...models.transformer_enc_dec import TransformerResult
 from ..model_interface import ModelInterface
-import framework
+from ... import framework
 
 from ..encoder_decoder import EncoderDecoderResult
 

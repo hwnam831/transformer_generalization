@@ -1,13 +1,13 @@
 import torch
 import torch.nn
 import torch.optim
-import framework
+from .. import framework
 import torch.utils.data
 import torch.cuda.amp
 from typing import Optional, Dict, Any, Tuple, List, Iterable
-from interfaces import Result
-import optimizer
-from interfaces import Result, ModelInterface
+from ..interfaces import Result
+from .. import optimizer
+from ..interfaces import Result, ModelInterface
 from tqdm import tqdm
 from dataclasses import dataclass
 

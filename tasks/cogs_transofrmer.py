@@ -1,9 +1,9 @@
-import dataset
+from .. import dataset
 from typing import Dict, Any
 from .task import Task
-from interfaces import Result
+from ..interfaces import Result
 from .transformer_mixin import TransformerMixin
-import framework
+from .. import framework
 
 
 class COGSTransformer(TransformerMixin, Task):
